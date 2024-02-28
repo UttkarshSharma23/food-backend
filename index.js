@@ -10,7 +10,7 @@ const stripe = require("stripe")(process.env.PAYMENT_SECRET_KEY);
 
 //Handling the CORS policy issue: Giving access to CORS and acting as a middleware
 const corsOptions = {
-  origin:"https://food-fullstack.vercel.app/",
+  origin:"https://complete-food-backend.onrender.com",
   methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials:true,
 }
